@@ -28,6 +28,7 @@ columns.forEach(function playingBoard(column) {
 
 function discDropper(event) {
     const column = event.currentTarget;
+    console.log(column)
 
     if (column.childElementCount === 6) {
         return;
